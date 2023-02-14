@@ -1,7 +1,4 @@
 import _ from 'lodash';
-import { chunkArray } from './another-module';
-
-const arrOne = [1, 2, 3, 4, 5];
 
 const objOne = {
   name: 'John',
@@ -16,4 +13,3 @@ function getItems(obj) {
 }
 
 getItems(objOne);
-console.log(chunkArray(arrOne, 2));
