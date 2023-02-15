@@ -1,7 +1,8 @@
 import _ from 'lodash';
 import moment from 'moment';
+import './styles/another.scss';
 
-const container = document.querySelector('.another-container');
+const container = document.querySelector('.another-page__container');
 const arrOne = [1, 2, 3, 4, 5];
 
 function chunkArray(array, groupCount) {
